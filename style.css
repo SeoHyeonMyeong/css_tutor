@@ -1,10 +1,15 @@
 body {
     background-color: black;
+    width: 1000px;
 }
 
 h1{
     color: white;
-    font-family: "Press Start 2P"
+    font-family: "Press Start 2P";
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-left-width: 10px;
+    border-left-color: silver;
 }
 
 p{
@@ -26,4 +31,36 @@ p{
 .nice_p {
     color: black;
     background-color: white;
+}
+
+.btn{
+    border-style: outset;
+    border-width: 5px;
+    border-color: gold;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.btn:hover{
+    border-style: inset;
+    
+}
+
+.background_gradient{
+    color: black;
+    background: linear-gradient(to right,lightgreen, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 10px 50px;
+}
+
+.background_image{
+    color: black;
+    background-image: url("https://cdn.pixabay.com/photo/2022/03/06/05/30/clouds-7050884_960_720.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 300px;
 }
